@@ -155,6 +155,7 @@ header:hover{
     /* align-items: center; */
     text-align: center;
     justify-content:center ;
+    margin-top: 7px ;
 }
 .dot{
 
@@ -392,7 +393,6 @@ footer p span {
     padding: 100px 0;
 
 }
-
 .product-top{
     margin-bottom: 30px;
 }
@@ -404,29 +404,45 @@ footer p span {
 .product-content-left{
     width: 50%;
 }
-
 .product-content-right{
     width: 50%;
 }
+.product-content{
+    width: 100%;
+}
+
 .product-content-left-big-img{
     width: 80%;
-    padding: 20px;
+    /* margin-right: 20px;
+    margin-left:20px ; */
+    padding: 0 40px;
+      
 }
 
 .product-content-left-big-img img{
     width: 100%;
+    border:1px solid #000;
+    height: 100%;
+    
 }
 
 .product-content-left-smalll-img{
     width: 20%;
+    /* padding-top: 20px; */
+    
 }
 
 .product-content-left-smalll-img img{
     width: 100%;
+    /* border:1px solid #000; */
+    /* height: 32%; */
+    height: 25%
+
 }
 .product-content-right{
-    width: 50%;
+    /* width: 50%; */
     padding-left: 20px;
+    width: calc(40% - 12px);
 }
 
 .product-content-right-product-QR img{
@@ -518,19 +534,43 @@ footer p span {
     font-size: 12px;
     margin-right: 6px;
 }
-.product-content-right-product-QR img{
-    width: 7%; 
+.product-content-right-product-QR{ 
     margin: 20px 0;
+    
 }
 
 
 /* Product-related  */
+.product-content-right-botom{
+    padding-top: 40px;
+    border-top: 1px solid #3333;
+    position: relative;
 
+    
+}
+.product-content-right-bottom-top{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff ;
+    left: 50%;
+    top: -15px;
+    border-radius: 50%;
+    transform: translate(-50%);
+}
+
+
+/* Sarn pharm lien quan */
 .product-related{
     margin-bottom: 50px;
 }
 .product-related-title{
     border-top:1px solid ;
+    text-align: center;
 }
 .product-related-title p{
     margin: 20px 0;

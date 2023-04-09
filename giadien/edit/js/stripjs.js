@@ -1,18 +1,30 @@
 
 // Product
-const baoquan = document.querySelector(".baoquan1")
-const chitiet = document.querySelector(".chitiet1")
+const baoquan = document.querySelector(".baoquan")
+const chitiet = document.querySelector(".chitiet")
+const mucsize = document.querySelector(".mucsize")
+
 if(baoquan){
-    baoquan.addEventListener("click" ,function(){
-        document.querySelector(".product-content-content-chitiet").style.dislay = "none"
-        document.querySelector(".product-content-content-baoquan").style.dislay = "block"
+    baoquan.addEventListener("click",function(){
+        document.querySelector(".product-content-right-bottom-content-chitiet").style.display = "none"
+        document.querySelector(".product-content-right-bottom-content-baoquan").style.display = "block"
+        document.querySelector(".product-content-right-bottom-content-size").style.display = "none"
     })
 }
 
 if (chitiet){
-    chitiet.addEventListener("click", function(){
-        document.querySelector("product-content-content-chitiet").style.dislay="block"
-        document.querySelector("product-content-content-baoquan").style.dislay="none"
+    chitiet.addEventListener("click",function(){
+        document.querySelector(".product-content-right-bottom-content-chitiet").style.display="block"
+        document.querySelector(".product-content-right-bottom-content-baoquan").style.display="none"
+        document.querySelector(".product-content-right-bottom-content-size").style.display = "none"
+    })
+}
+
+if(mucsize){
+    mucsize.addEventListener("click", function(){
+        document.querySelector(".product-content-right-bottom-content-chitiet").style.display="none"
+        document.querySelector(".product-content-right-bottom-content-baoquan").style.display="none"
+        document.querySelector(".product-content-right-bottom-content-size").style.display = "block"
     })
 }
 

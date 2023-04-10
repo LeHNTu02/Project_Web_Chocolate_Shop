@@ -28,7 +28,7 @@ if(mucsize){
     })
 }
 
-
+// style="transform: translate3d(0px, 0px, 0px); transform:all 0s ease 0s; width: 2080px;"
 /*
 const bigImg = document.querySelector(".product-content-left-big-img")
 const smalImg = document.querySelectorAll(".product-constent-left-smalll-img img")
